@@ -1,7 +1,7 @@
 [build]
   base = "web-prototype"
   command = "npm run build"
-  publish = "web-prototype/dist"
+  publish = "dist"
 
 [[redirects]]
   from = "/*"
