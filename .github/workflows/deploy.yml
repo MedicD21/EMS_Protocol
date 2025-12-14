@@ -35,6 +35,8 @@ jobs:
           npm ci
 
       - name: Build
+        env:
+          VITE_BASE_PATH: /EMS_Protocol/
         run: |
           cd web-prototype
           npm run build
